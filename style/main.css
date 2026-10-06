@@ -1,0 +1,14 @@
+body {
+    background-image: url("bg/ocean.png"); 
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* canvas {
+    position:flex;
+    top:0;
+    left:0;
+}*/
