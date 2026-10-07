@@ -1,5 +1,5 @@
 # Reach The Flag
-A small game developed as a study project to learn and practice **JavaS Canvas**.
+A small game developed as a study project to learn and practice **JavaScript Canvas**.
 
 <p align="center">
   <img src="play.gif" />
@@ -19,11 +19,11 @@ This project was created to experiment with the Canvas API and practice concepts
 
 The game uses a tileset made of **16×16 pixel tiles**, with the map determining which tile should be drawn at each position.
 
-## Objective
+## Gameplay
 
-Move the character through the map and reach the flag.
+Move the character using the arrow keys through the map and reach the flag.
 
-## Art & Music
+## Resources
 
 - **Art:** Made in MS Paint
 - **Music:** Created with BeepBox
