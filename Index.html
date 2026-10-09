@@ -7,8 +7,19 @@
     <link rel="stylesheet" type="text/css" href="style/main.css">
     <link rel="icon" type="image/x-icon" href="actor/char.png">    
 </head>
-<body>    
-    <canvas id="canvas"></canvas>
+<body>   
+    <div class="menu"> 
+        
+        <canvas id="canvas"></canvas>
+
+        <div class="buttons">
+            <p id="timer">00:00:00</p>
+            <canvas id="control"></canvas>            
+            <button id="restart" onclick="restartGame()">▶</button>
+        </div>
+
+    </div> 
 </body>
-<script src="Script.js"></script> <!-- final do html -->
+<script src="Game.js"></script> <!-- final do html -->
+<script src="Controls.js"></script> 
 </html>

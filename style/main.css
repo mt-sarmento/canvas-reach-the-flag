@@ -7,6 +7,54 @@ body {
     align-items: center;
 }
 
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 10px solid #4946ca;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+#restart {
+    background-color: #d8d8d8;
+    align-self: flex-end;
+}
+
+#restart:hover {
+  background-color: #718071; 
+  color: white;
+}
+
+#timer{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 3px;
+    border-radius: 10px;
+    border: 1px solid #4946ca;
+    background-color: #5f5dc5;
+}
+
+
+/* Celular */
+@media (max-width: 600px) {
+    .game-container {
+        flex-direction: column;
+    }
+}
+
 /* canvas {
     position:flex;
     top:0;
